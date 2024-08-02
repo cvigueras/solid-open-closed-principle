@@ -2,9 +2,9 @@
 {
     public class Calculator
     {
-        public int Calculate(Operation number)
+        public int Calculate(Operation operation)
         {
-            return number.Number1 + number.Number2;
+            return operation.Calculate();
         }
     }
 }
